@@ -1,0 +1,167 @@
+
+:root{
+    --textColor:#525252;
+    --secondColor:#F0EDFFCC;
+    --background: linear-gradient(99.78deg, #9181F4 -5.85%, #5038ED 109.55%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+    font-style: normal;;
+}
+.content{
+    display: flex;
+    height: 100vh;
+
+}
+
+.content .left,
+.right{
+    padding: 40px;
+    height: 100%;
+    display: flex;
+}
+.content .left{
+width: 50%;
+flex-direction: column;
+padding: 50px;
+justify-content: center;
+align-items: center;
+}
+
+.content .right{
+    width: 50%;
+    height: 100%;
+   background-image: var(--background);
+}
+
+.content .left input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 5px;
+}
+
+
+ .content .left .intro{
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+.content .left .intro h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.content .left .intro p{
+    color: var(--textColor);
+  
+}
+ .content .left .form .input,
+.bottom .x{
+    background-color: var(--secondColor);
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    justify-content: center;
+    align-items: center;
+
+}
+.content .left .input i,
+span{
+    margin: 0 3px;
+}
+.content .left .form .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logBtn{
+   
+    width: 40%;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    background-image: var(--background);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content .left .bottom{
+    margin: 10px 0;
+}
+.bottom p{
+    text-align: center;
+}
+.special{
+    font-size: 18px;
+    font-weight: bold;
+}
+.x {
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.x i{
+    font-size: 20px;
+    border-radius: 0;
+    z-index: 3;
+    position: relative;
+    margin: 0 8px;
+
+}
+.right{
+    background-image: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+}
+.box2{
+    width:80%;
+    height: 80%;
+    border: 1px solid #FFFFFF85;
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.21);
+
+}
+.box2 p{
+    color: white;
+    font-size: 32px;
+    padding: 15px;
+    width: 50%;
+
+}
+.imges{
+    width: 760px;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    transform: translateX(10%);
+
+}
+.imges img{
+    width: 100%;
+}
+.thinder{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    transform: translate(-50%);
+    bottom: 20%;
+    
+}
+.thinder img{
+    width: 100%;
+}
+
